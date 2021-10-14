@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-10-14T06:17:31.560Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36 Edg/94.0.992.47" etag="5wELzrQlwARrVxgaAfrT" version="15.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-14T06:19:25.786Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36 Edg/94.0.992.47" etag="REhLx-DO3vIK_IYvmOYt" version="15.2.7" type="github">
   <diagram id="FOcLqWjY8mXjtjIEvxCV" name="Page-1">
-    <mxGraphModel dx="2837" dy="1002" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2170" dy="601" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -355,7 +355,7 @@
           <mxGeometry y="551.5" width="610.75" height="138.5" as="geometry" />
         </mxCell>
         <mxCell id="a76l9J3t9T6YE2-LrX1z-101" value="&lt;b&gt;EOL Status Config Condition check failed and the ECU response:&lt;/b&gt;&lt;br&gt;(1) The DID $0052 writed value is not 0x55/0xFF shall response NRC31.&lt;br&gt;(2) PhaseOfLife is not Phase0, Phase2, Phase4 shall response NRC22.&lt;br&gt;(3) The DID $2100 configure data is the default value and the write value is 0xFF shall response NRC22.&lt;br&gt;(4) The DID $0052 writed vaule is same with the current value shall response NRC22." style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry y="701.5" width="550" height="100" as="geometry" />
+          <mxGeometry y="701.5" width="580" height="100" as="geometry" />
         </mxCell>
         <mxCell id="a76l9J3t9T6YE2-LrX1z-102" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a76l9J3t9T6YE2-LrX1z-103">
           <mxGeometry relative="1" as="geometry">
