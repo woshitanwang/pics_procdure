@@ -1,47 +1,47 @@
-<mxfile host="app.diagrams.net" modified="2021-10-14T05:44:50.751Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36 Edg/94.0.992.47" etag="fiTOuqDkloUv4Y0ik1xD" version="15.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-14T06:17:31.560Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36 Edg/94.0.992.47" etag="5wELzrQlwARrVxgaAfrT" version="15.2.7" type="github">
   <diagram id="FOcLqWjY8mXjtjIEvxCV" name="Page-1">
-    <mxGraphModel dx="3171" dy="1202" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2837" dy="1002" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="a76l9J3t9T6YE2-LrX1z-1" value="Power Up" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#56517e;fillColor=#C3C1D4;" vertex="1" parent="1">
-          <mxGeometry x="-222.5" y="20" width="145" height="30" as="geometry" />
+          <mxGeometry x="-522.5" y="20" width="145" height="30" as="geometry" />
         </mxCell>
         <mxCell id="a76l9J3t9T6YE2-LrX1z-2" value="NVM Inited?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-242.5" y="80" width="185" height="80" as="geometry" />
+          <mxGeometry x="-542.5" y="80" width="185" height="80" as="geometry" />
         </mxCell>
         <mxCell id="a76l9J3t9T6YE2-LrX1z-3" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="a76l9J3t9T6YE2-LrX1z-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-150" y="110" as="sourcePoint" />
-            <mxPoint x="-150" y="80" as="targetPoint" />
+            <mxPoint x="-450" y="110" as="sourcePoint" />
+            <mxPoint x="-450" y="80" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="a76l9J3t9T6YE2-LrX1z-4" value="Init NVM as default values" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-40" y="140" width="120" height="40" as="geometry" />
+          <mxGeometry x="-340" y="140" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="a76l9J3t9T6YE2-LrX1z-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="a76l9J3t9T6YE2-LrX1z-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-25" y="120" as="sourcePoint" />
-            <mxPoint x="20" y="140" as="targetPoint" />
+            <mxPoint x="-325" y="120" as="sourcePoint" />
+            <mxPoint x="-280" y="140" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="20" y="120" />
+              <mxPoint x="-280" y="120" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="a76l9J3t9T6YE2-LrX1z-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="a76l9J3t9T6YE2-LrX1z-7" target="a76l9J3t9T6YE2-LrX1z-11">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-150" y="340" as="targetPoint" />
+            <mxPoint x="-450" y="340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="a76l9J3t9T6YE2-LrX1z-7" value="EOL ConfigData is &lt;br&gt;default or invalid?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="-240" y="220" width="180" height="80" as="geometry" />
+          <mxGeometry x="-540" y="220" width="180" height="80" as="geometry" />
         </mxCell>
         <mxCell id="a76l9J3t9T6YE2-LrX1z-8" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="20" y="180" as="sourcePoint" />
-            <mxPoint x="-150" y="200" as="targetPoint" />
+            <mxPoint x="-280" y="180" as="sourcePoint" />
+            <mxPoint x="-450" y="200" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="20" y="200" />
+              <mxPoint x="-280" y="200" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -50,80 +50,80 @@
         </mxCell>
         <mxCell id="a76l9J3t9T6YE2-LrX1z-10" value="" style="endArrow=classic;html=1;" edge="1" parent="1" target="a76l9J3t9T6YE2-LrX1z-7">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-150" y="160" as="sourcePoint" />
-            <mxPoint x="-100" y="110" as="targetPoint" />
+            <mxPoint x="-450" y="160" as="sourcePoint" />
+            <mxPoint x="-400" y="110" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="a76l9J3t9T6YE2-LrX1z-11" value="VehFixedCal Version diff&lt;br&gt;with saved?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="-250" y="346" width="200" height="64" as="geometry" />
+          <mxGeometry x="-550" y="346" width="200" height="64" as="geometry" />
         </mxCell>
         <mxCell id="a76l9J3t9T6YE2-LrX1z-14" value="&lt;div&gt;&lt;span&gt;Recover default config data&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;align=center;" vertex="1" parent="1">
-          <mxGeometry x="-339" y="478" width="160" height="50" as="geometry" />
+          <mxGeometry x="-639" y="478" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="a76l9J3t9T6YE2-LrX1z-15" value="Idle" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
-          <mxGeometry x="-210" y="660" width="120" height="30" as="geometry" />
+          <mxGeometry x="-510" y="660" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="a76l9J3t9T6YE2-LrX1z-17" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="a76l9J3t9T6YE2-LrX1z-15">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-150" y="410" as="sourcePoint" />
-            <mxPoint x="-100" y="360" as="targetPoint" />
+            <mxPoint x="-450" y="410" as="sourcePoint" />
+            <mxPoint x="-400" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="a76l9J3t9T6YE2-LrX1z-18" value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-57.5" y="100" width="40" height="20" as="geometry" />
+          <mxGeometry x="-357.5" y="100" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="a76l9J3t9T6YE2-LrX1z-19" value="Y" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-180" y="160" width="40" height="20" as="geometry" />
+          <mxGeometry x="-480" y="160" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="a76l9J3t9T6YE2-LrX1z-20" value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-190" y="300" width="40" height="20" as="geometry" />
+          <mxGeometry x="-490" y="300" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="a76l9J3t9T6YE2-LrX1z-22" value="Y" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-282.5" y="357" width="40" height="20" as="geometry" />
+          <mxGeometry x="-582.5" y="357" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="a76l9J3t9T6YE2-LrX1z-23" value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-190" y="410" width="40" height="20" as="geometry" />
+          <mxGeometry x="-490" y="410" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="a76l9J3t9T6YE2-LrX1z-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a76l9J3t9T6YE2-LrX1z-25">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="237.0294117647063" y="80.01271860095403" as="targetPoint" />
+            <mxPoint x="267.0294117647063" y="80.01271860095403" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="a76l9J3t9T6YE2-LrX1z-25" value="Receive EOL Param Config" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#56517e;fillColor=#C3C1D4;" vertex="1" parent="1">
-          <mxGeometry x="161.5" y="20" width="151" height="30" as="geometry" />
+          <mxGeometry x="191.5" y="20" width="151" height="30" as="geometry" />
         </mxCell>
         <mxCell id="a76l9J3t9T6YE2-LrX1z-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a76l9J3t9T6YE2-LrX1z-27">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="237" y="200" as="targetPoint" />
+            <mxPoint x="267" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="a76l9J3t9T6YE2-LrX1z-27" value="Check EOL Param Config &lt;br&gt;Condition？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="80" width="234" height="80" as="geometry" />
+          <mxGeometry x="150" y="80" width="234" height="80" as="geometry" />
         </mxCell>
         <mxCell id="a76l9J3t9T6YE2-LrX1z-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a76l9J3t9T6YE2-LrX1z-31" target="a76l9J3t9T6YE2-LrX1z-32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="a76l9J3t9T6YE2-LrX1z-31" value="Save config data to NVM&lt;br&gt;Save VehFixedCal Version to NVM" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="142.75" y="315" width="188.5" height="60" as="geometry" />
+          <mxGeometry x="172.75" y="315" width="188.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="a76l9J3t9T6YE2-LrX1z-32" value="Idle" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
-          <mxGeometry x="177" y="433" width="120" height="30" as="geometry" />
+          <mxGeometry x="207" y="433" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="a76l9J3t9T6YE2-LrX1z-33" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="a76l9J3t9T6YE2-LrX1z-36">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="331.25" y="120" as="sourcePoint" />
-            <mxPoint x="240" y="400" as="targetPoint" />
+            <mxPoint x="361.25" y="120" as="sourcePoint" />
+            <mxPoint x="270" y="400" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="385.5" y="120" />
-              <mxPoint x="386" y="400" />
+              <mxPoint x="415.5" y="120" />
+              <mxPoint x="416" y="400" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="a76l9J3t9T6YE2-LrX1z-34" value="Y" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="230" y="160" width="40" height="20" as="geometry" />
+          <mxGeometry x="260" y="160" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="a76l9J3t9T6YE2-LrX1z-36" value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="345.5" y="100" width="40" height="20" as="geometry" />
+          <mxGeometry x="375.5" y="100" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="a76l9J3t9T6YE2-LrX1z-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a76l9J3t9T6YE2-LrX1z-39" target="a76l9J3t9T6YE2-LrX1z-41">
           <mxGeometry relative="1" as="geometry" />
@@ -170,35 +170,35 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="a76l9J3t9T6YE2-LrX1z-50" value="Re-configure EOL as&lt;br&gt;saved config data sucessed?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="-490" y="398" width="210" height="80" as="geometry" />
+          <mxGeometry x="-790" y="398" width="210" height="80" as="geometry" />
         </mxCell>
         <mxCell id="a76l9J3t9T6YE2-LrX1z-51" value="Save config data to NVM&lt;br&gt;Save VehFixedCal Version to NVM&lt;br&gt;Reques to reset ECU" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="-479.25" y="537" width="188.5" height="60" as="geometry" />
+          <mxGeometry x="-779.25" y="537" width="188.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="a76l9J3t9T6YE2-LrX1z-52" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-250" y="378" as="sourcePoint" />
-            <mxPoint x="-385" y="398" as="targetPoint" />
+            <mxPoint x="-550" y="378" as="sourcePoint" />
+            <mxPoint x="-685" y="398" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-385" y="378" />
+              <mxPoint x="-685" y="378" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="a76l9J3t9T6YE2-LrX1z-53" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-279" y="438" as="sourcePoint" />
-            <mxPoint x="-259" y="478" as="targetPoint" />
+            <mxPoint x="-579" y="438" as="sourcePoint" />
+            <mxPoint x="-559" y="478" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-259" y="438" />
+              <mxPoint x="-559" y="438" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="a76l9J3t9T6YE2-LrX1z-54" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.492;exitY=0.998;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="a76l9J3t9T6YE2-LrX1z-14">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-260" y="530" as="sourcePoint" />
-            <mxPoint x="-150" y="567" as="targetPoint" />
+            <mxPoint x="-560" y="530" as="sourcePoint" />
+            <mxPoint x="-450" y="567" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-260" y="567" />
+              <mxPoint x="-560" y="567" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -206,25 +206,25 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="a76l9J3t9T6YE2-LrX1z-56" value="Config EOL&amp;nbsp;as requested&lt;br&gt;&amp;nbsp;sucessed?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="132" y="200" width="210" height="80" as="geometry" />
+          <mxGeometry x="162" y="200" width="210" height="80" as="geometry" />
         </mxCell>
         <mxCell id="a76l9J3t9T6YE2-LrX1z-57" value="" style="endArrow=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endFill=0;" edge="1" parent="1" source="a76l9J3t9T6YE2-LrX1z-56">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="346" y="350" as="sourcePoint" />
-            <mxPoint x="386" y="240" as="targetPoint" />
+            <mxPoint x="376" y="350" as="sourcePoint" />
+            <mxPoint x="416" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="a76l9J3t9T6YE2-LrX1z-58" value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="331.25" y="240" width="40" height="20" as="geometry" />
+          <mxGeometry x="361.25" y="240" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="a76l9J3t9T6YE2-LrX1z-59" value="Y" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="230" y="280" width="40" height="20" as="geometry" />
+          <mxGeometry x="260" y="280" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="a76l9J3t9T6YE2-LrX1z-60" value="Y" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-430" y="478" width="40" height="20" as="geometry" />
+          <mxGeometry x="-730" y="478" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="a76l9J3t9T6YE2-LrX1z-61" value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-262.5" y="438" width="40" height="20" as="geometry" />
+          <mxGeometry x="-562.5" y="438" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="a76l9J3t9T6YE2-LrX1z-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;" edge="1" parent="1" source="a76l9J3t9T6YE2-LrX1z-63">
           <mxGeometry relative="1" as="geometry">
@@ -301,25 +301,25 @@
         </mxCell>
         <mxCell id="a76l9J3t9T6YE2-LrX1z-79" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;rounded=0;" edge="1" parent="1" source="a76l9J3t9T6YE2-LrX1z-51">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-120" y="650" as="sourcePoint" />
-            <mxPoint x="-150" y="630" as="targetPoint" />
+            <mxPoint x="-420" y="650" as="sourcePoint" />
+            <mxPoint x="-450" y="630" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-385" y="630" />
+              <mxPoint x="-685" y="630" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="a76l9J3t9T6YE2-LrX1z-80" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;rounded=0;" edge="1" parent="1" source="a76l9J3t9T6YE2-LrX1z-7">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="30" y="460" as="sourcePoint" />
-            <mxPoint x="-150" y="480" as="targetPoint" />
+            <mxPoint x="-270" y="460" as="sourcePoint" />
+            <mxPoint x="-450" y="480" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="20" y="260" />
-              <mxPoint x="20" y="480" />
+              <mxPoint x="-280" y="260" />
+              <mxPoint x="-280" y="480" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="a76l9J3t9T6YE2-LrX1z-83" value="Y" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-70" y="270" width="40" height="20" as="geometry" />
+          <mxGeometry x="-370" y="270" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="a76l9J3t9T6YE2-LrX1z-91" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a76l9J3t9T6YE2-LrX1z-90" target="a76l9J3t9T6YE2-LrX1z-66">
           <mxGeometry relative="1" as="geometry" />
@@ -351,11 +351,61 @@
         <mxCell id="a76l9J3t9T6YE2-LrX1z-98" value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="810" y="170" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="a76l9J3t9T6YE2-LrX1z-100" value="&lt;b&gt;EOL Param Condition check failed and the ECU response:&lt;/b&gt;&lt;br&gt;(1) Vehicle Speed &amp;gt; 5km/h shall response NRC22.&lt;br&gt;(2) PhaseOfLife is not in Phase0 or Phase2 shall response NRC22.&lt;br&gt;(3) The EOL_Status is not EOL_Mode($0052 = 0x55) shall response NRC22.&lt;br&gt;(4) The Byte8 in configure data check failed shall response NRC10.&lt;br&gt;(5) The default bench do not supported device(Loop/Dcs/Rsu) is configured as presented shall response NRC31.&lt;br&gt;(6) The Byte5 in configure data is 0x00 shall response NRC22.&lt;br&gt;(7) The all reserved bit is configured as presented shall response NRC31.&lt;br&gt;(8) The configure data is not the default value or not be erased to default value shall response NRC22." style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="151.75" y="520" width="610.75" height="138.5" as="geometry" />
+        <mxCell id="a76l9J3t9T6YE2-LrX1z-100" value="&lt;b&gt;EOL Param Config Condition check failed and the ECU response:&lt;/b&gt;&lt;br&gt;(1) Vehicle Speed &amp;gt; 5km/h shall response NRC22.&lt;br&gt;(2) PhaseOfLife is not in Phase0 or Phase2 shall response NRC22.&lt;br&gt;(3) The EOL_Status is not EOL_Mode($0052 = 0x55) shall response NRC22.&lt;br&gt;(4) The Byte8 in configure data check failed shall response NRC10.&lt;br&gt;(5) The default bench do not supported device(Loop/Dcs/Rsu) is configured as presented shall response NRC31.&lt;br&gt;(6) The Byte5 in configure data is 0x00 shall response NRC22.&lt;br&gt;(7) The all reserved bit is configured as presented shall response NRC31.&lt;br&gt;(8) The configure data is not the default value or not be erased to default value shall response NRC22." style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="551.5" width="610.75" height="138.5" as="geometry" />
         </mxCell>
-        <mxCell id="a76l9J3t9T6YE2-LrX1z-101" value="&lt;b&gt;EOL Status Condition check failed and the ECU response:&lt;/b&gt;&lt;br&gt;(1) The DID $0052 writed value is not 0x55/0xFF shall response NRC31.&lt;br&gt;(2) PhaseOfLife is not Phase0, Phase2, Phase4 shall response NRC22.&lt;br&gt;(3) The DID $2100 configure data is the default value and the write value is 0xFF shall response NRC22.&lt;br&gt;(4) The DID $0052 writed vaule is same with the current value shall response NRC22." style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="151.75" y="670" width="550" height="100" as="geometry" />
+        <mxCell id="a76l9J3t9T6YE2-LrX1z-101" value="&lt;b&gt;EOL Status Config Condition check failed and the ECU response:&lt;/b&gt;&lt;br&gt;(1) The DID $0052 writed value is not 0x55/0xFF shall response NRC31.&lt;br&gt;(2) PhaseOfLife is not Phase0, Phase2, Phase4 shall response NRC22.&lt;br&gt;(3) The DID $2100 configure data is the default value and the write value is 0xFF shall response NRC22.&lt;br&gt;(4) The DID $0052 writed vaule is same with the current value shall response NRC22." style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="701.5" width="550" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="a76l9J3t9T6YE2-LrX1z-102" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a76l9J3t9T6YE2-LrX1z-103">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-52.97058823529369" y="80.01271860095403" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a76l9J3t9T6YE2-LrX1z-103" value="Receive EOL Param Erase" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#56517e;fillColor=#C3C1D4;" vertex="1" parent="1">
+          <mxGeometry x="-128.5" y="20" width="151" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a76l9J3t9T6YE2-LrX1z-104" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a76l9J3t9T6YE2-LrX1z-105">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-53" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a76l9J3t9T6YE2-LrX1z-105" value="Check EOL Param Erase&lt;br&gt;Condition？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="80" width="234" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="a76l9J3t9T6YE2-LrX1z-106" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a76l9J3t9T6YE2-LrX1z-107" target="a76l9J3t9T6YE2-LrX1z-108">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a76l9J3t9T6YE2-LrX1z-107" value="Save config data to NVM&lt;br&gt;Save VehFixedCal Version to NVM" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-147.25" y="315" width="188.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a76l9J3t9T6YE2-LrX1z-108" value="Idle" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="-113" y="433" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a76l9J3t9T6YE2-LrX1z-109" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="a76l9J3t9T6YE2-LrX1z-111">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="41.25" y="120" as="sourcePoint" />
+            <mxPoint x="-50" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="95.5" y="120" />
+              <mxPoint x="96" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a76l9J3t9T6YE2-LrX1z-110" value="Y" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="160" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="a76l9J3t9T6YE2-LrX1z-111" value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="55.5" y="100" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="a76l9J3t9T6YE2-LrX1z-119" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a76l9J3t9T6YE2-LrX1z-117" target="a76l9J3t9T6YE2-LrX1z-107">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a76l9J3t9T6YE2-LrX1z-117" value="Erase EOL Param Config Data and recover to the default config" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="-147.25" y="210" width="188.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a76l9J3t9T6YE2-LrX1z-121" value="&lt;b&gt;EOL Param Erase Condition check failed and the ECU response:&lt;/b&gt;&lt;br&gt;(1) PhaseOfLife is not in Phase0 or Phase2 shall response NRC22.&lt;br&gt;(2) The $F1A1 value is not all 0xFF shall response NRC31." style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="491.5" width="380" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
