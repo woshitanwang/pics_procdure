@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-10-14T05:41:22.875Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36 Edg/94.0.992.47" etag="ziq-D05RdtaBy4ogd3AX" version="15.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-14T05:44:22.911Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36 Edg/94.0.992.47" etag="uf0s2UGekc4M2gLkVdfb" version="15.2.7" type="github">
   <diagram id="FOcLqWjY8mXjtjIEvxCV" name="Page-1">
-    <mxGraphModel dx="2599" dy="859" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="2347" dy="707" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -97,7 +97,7 @@
             <mxPoint x="237" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="a76l9J3t9T6YE2-LrX1z-27" value="Check EOL Param Config Condition？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="a76l9J3t9T6YE2-LrX1z-27" value="Check EOL Param Config &lt;br&gt;Condition？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="80" width="234" height="80" as="geometry" />
         </mxCell>
         <mxCell id="a76l9J3t9T6YE2-LrX1z-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="a76l9J3t9T6YE2-LrX1z-31" target="a76l9J3t9T6YE2-LrX1z-32">
@@ -350,6 +350,12 @@
         </mxCell>
         <mxCell id="a76l9J3t9T6YE2-LrX1z-98" value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="810" y="170" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="a76l9J3t9T6YE2-LrX1z-100" value="&lt;b&gt;EOL Param Condition check failed and the ECU response:&lt;/b&gt;&lt;br&gt;(1) Vehicle Speed &amp;gt; 5km/h shall response NRC22.&lt;br&gt;(2) PhaseOfLife is not in Phase0 or Phase2 shall response NRC22.&lt;br&gt;(3) The EOL_Status is not EOL_Mode($0052 = 0x55) shall response NRC22.&lt;br&gt;(4) The Byte8 in configure data check failed shall response NRC10.&lt;br&gt;(5) The default bench do not supported device(Loop/Dcs/Rsu) is configured as presented shall response NRC31.&lt;br&gt;(6) The Byte5 in configure data is 0x00 shall response NRC22.&lt;br&gt;(7) The all reserved bit is configured as presented shall response NRC31.&lt;br&gt;(8) The configure data is not the default value or not be erased to default value shall response NRC22." style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="510" width="610.75" height="138.5" as="geometry" />
+        </mxCell>
+        <mxCell id="a76l9J3t9T6YE2-LrX1z-101" value="&lt;b&gt;EOL Status Condition check failed and the ECU response:&lt;/b&gt;&lt;br&gt;(1) The DID $0052 writed value is not 0x55/0xFF shall response NRC31.&lt;br&gt;(2) PhaseOfLife is not Phase0, Phase2, Phase4 shall response NRC22.&lt;br&gt;(3) The DID $2100 configure data is the default value and the write value is 0xFF shall response NRC22.&lt;br&gt;(4) The DID $0052 writed vaule is same with the current value shall response NRC22." style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="660" width="550" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
