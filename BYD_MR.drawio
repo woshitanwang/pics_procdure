@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-29T03:28:18.870Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.30" etag="LI1jgUWFJfyzajiZtK3c" version="15.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-04T08:25:07.975Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36 Edg/95.0.1020.40" etag="WGvb0ckLj5a3nS0IVz3D" version="15.6.8" type="github">
   <diagram id="FOcLqWjY8mXjtjIEvxCV" name="Page-1">
     <mxGraphModel dx="2170" dy="601" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -57,7 +57,7 @@
         <mxCell id="a76l9J3t9T6YE2-LrX1z-11" value="VehFixedCal Version diff&lt;br&gt;with saved?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="-550" y="346" width="200" height="64" as="geometry" />
         </mxCell>
-        <mxCell id="a76l9J3t9T6YE2-LrX1z-14" value="&lt;div&gt;&lt;span&gt;Recover default config data&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;align=center;" parent="1" vertex="1">
+        <mxCell id="a76l9J3t9T6YE2-LrX1z-14" value="Save VehFixedCal Version to NVM" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;align=center;" parent="1" vertex="1">
           <mxGeometry x="-639" y="478" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="a76l9J3t9T6YE2-LrX1z-15" value="Idle" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
