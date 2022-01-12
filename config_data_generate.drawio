@@ -1,1 +1,22 @@
-<mxfile host="app.diagrams.net" modified="2022-01-12T01:36:04.227Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36 Edg/97.0.1072.55" version="16.1.0" etag="er_0L06TJ5VVSrwOZsm2" type="github"><diagram id="6S-zk5QSLsseoAWbNX_f">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-01-12T01:46:23.759Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36 Edg/97.0.1072.55" etag="uSM-vMG1kzGi7pKY079E" version="16.1.0" type="github">
+  <diagram id="6S-zk5QSLsseoAWbNX_f" name="Page-1">
+    <mxGraphModel dx="1253" dy="831" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SfhhsxuONOvbekUjoZ1N-1" value="(1) Rule1 Generate Config Data (Base &lt;font color=&quot;#ff3333&quot;&gt;Min &lt;/font&gt;Config Data Add Device)&lt;br style=&quot;font-size: 15px&quot;&gt;(2) Rule2 Generate Config Data (Base &lt;font color=&quot;#ff3333&quot;&gt;Max &lt;/font&gt;Config Data Remove Device)&lt;br style=&quot;font-size: 15px&quot;&gt;(3) Rule3 Generate Config Data (Base Invalid Rule and &lt;font color=&quot;#ff3333&quot;&gt;Min &lt;/font&gt;Config Data)&lt;br&gt;(4) Rule4 Generate Config Data (Base Invalid Rule and &lt;font color=&quot;#ff3333&quot;&gt;Max &lt;/font&gt;Config Data)&lt;br style=&quot;font-size: 15px&quot;&gt;(4) Rule5 Generate Config Data (Base User Defined Fix Config Data)" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=15;fontColor=#6666FF;fontStyle=1;verticalAlign=middle;horizontal=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="260" width="530" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="SfhhsxuONOvbekUjoZ1N-2" value="Config Data Generate" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#6666FF;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="295" y="400" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SfhhsxuONOvbekUjoZ1N-4" value="" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=15;fontColor=#6666FF;fontStyle=1;verticalAlign=middle;horizontal=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="260" width="530" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="SfhhsxuONOvbekUjoZ1N-5" value="Config Data Generate" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#6666FF;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="905" y="400" width="180" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
