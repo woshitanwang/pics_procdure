@@ -1,20 +1,45 @@
-<mxfile host="app.diagrams.net" modified="2022-01-12T01:46:23.759Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36 Edg/97.0.1072.55" etag="uSM-vMG1kzGi7pKY079E" version="16.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-12T01:55:29.757Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36 Edg/97.0.1072.55" etag="WYrq6dT6DbVZFYpzRXqN" version="16.1.0" type="github">
   <diagram id="6S-zk5QSLsseoAWbNX_f" name="Page-1">
-    <mxGraphModel dx="1253" dy="831" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1521" dy="1009" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="SfhhsxuONOvbekUjoZ1N-1" value="(1) Rule1 Generate Config Data (Base &lt;font color=&quot;#ff3333&quot;&gt;Min &lt;/font&gt;Config Data Add Device)&lt;br style=&quot;font-size: 15px&quot;&gt;(2) Rule2 Generate Config Data (Base &lt;font color=&quot;#ff3333&quot;&gt;Max &lt;/font&gt;Config Data Remove Device)&lt;br style=&quot;font-size: 15px&quot;&gt;(3) Rule3 Generate Config Data (Base Invalid Rule and &lt;font color=&quot;#ff3333&quot;&gt;Min &lt;/font&gt;Config Data)&lt;br&gt;(4) Rule4 Generate Config Data (Base Invalid Rule and &lt;font color=&quot;#ff3333&quot;&gt;Max &lt;/font&gt;Config Data)&lt;br style=&quot;font-size: 15px&quot;&gt;(4) Rule5 Generate Config Data (Base User Defined Fix Config Data)" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=15;fontColor=#6666FF;fontStyle=1;verticalAlign=middle;horizontal=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="260" width="530" height="140" as="geometry" />
+          <mxGeometry x="120" y="260" width="530" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="SfhhsxuONOvbekUjoZ1N-2" value="Config Data Generate" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#6666FF;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="295" y="400" width="180" height="30" as="geometry" />
+        <mxCell id="SfhhsxuONOvbekUjoZ1N-2" value="Config Data Generate" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#000000;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="295" y="390" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="SfhhsxuONOvbekUjoZ1N-4" value="" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=15;fontColor=#6666FF;fontStyle=1;verticalAlign=middle;horizontal=1;" vertex="1" parent="1">
-          <mxGeometry x="730" y="260" width="530" height="140" as="geometry" />
+        <mxCell id="SfhhsxuONOvbekUjoZ1N-4" value="(1) Check the Config data is validly by &lt;font color=&quot;#ff3333&quot;&gt;Invalid Rule&lt;/font&gt;&lt;br&gt;(2) Check the Config data is validly by &lt;font color=&quot;#ff3333&quot;&gt;User Defined Fixed Config Data&lt;/font&gt;&lt;br&gt;(3) Check the Config data is validly by &lt;font color=&quot;#ff3333&quot;&gt;User Defined Rules in Program&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=15;fontColor=#6666FF;fontStyle=1;verticalAlign=middle;horizontal=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="230" width="280" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="SfhhsxuONOvbekUjoZ1N-5" value="Config Data Generate" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#6666FF;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="905" y="400" width="180" height="30" as="geometry" />
+        <mxCell id="SfhhsxuONOvbekUjoZ1N-5" value="Validly Checker" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#000000;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="850" y="410" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SfhhsxuONOvbekUjoZ1N-6" value="" style="rounded=1;whiteSpace=wrap;html=1;align=left;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=15;fontColor=#6666FF;fontStyle=1;verticalAlign=middle;horizontal=1;" vertex="1" parent="1">
+          <mxGeometry x="1255" y="291.25" width="210" height="107.5" as="geometry" />
+        </mxCell>
+        <mxCell id="SfhhsxuONOvbekUjoZ1N-7" value="Config Data Pool" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontColor=#6666FF;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1270" y="330" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SfhhsxuONOvbekUjoZ1N-8" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fontSize=15;fontColor=#6666FF;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontStyle=1;strokeColor=#6666FF;" edge="1" parent="1" source="SfhhsxuONOvbekUjoZ1N-1" target="SfhhsxuONOvbekUjoZ1N-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="910" y="320" as="sourcePoint" />
+            <mxPoint x="960" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="700" y="320" />
+              <mxPoint x="750" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SfhhsxuONOvbekUjoZ1N-11" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fontSize=15;fontColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#6666FF;" edge="1" parent="1" source="SfhhsxuONOvbekUjoZ1N-4" target="SfhhsxuONOvbekUjoZ1N-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="910" y="320" as="sourcePoint" />
+            <mxPoint x="960" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1120" y="300" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
