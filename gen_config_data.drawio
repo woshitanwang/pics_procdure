@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-17T05:43:33.829Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36 Edg/97.0.1072.62" etag="kdU-Z5wKMFi6ouR4KQSb" version="16.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-17T11:07:54.040Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36 Edg/97.0.1072.62" etag="wycNcNGR7qA145ajKEc5" version="16.2.4" type="github">
   <diagram id="2ZZIV0E0WqTFmpqmLoBd" name="Page-1">
     <mxGraphModel dx="1065" dy="706" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -21,6 +21,9 @@
         </mxCell>
         <mxCell id="JOawp78KLpITCxqBzhZb-6" value="Byte Generate Rule:&lt;br&gt;1. Byte0 Gen Check&lt;br&gt;2. Gen Config Data" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="280" width="270" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="JOawp78KLpITCxqBzhZb-7" value="按照字节数据配置的设备，如果配置字相同" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="170" width="375" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
