@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-03-15T02:32:04.198Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36 Edg/99.0.1150.39" etag="xPa9hIVZoj-rkYMmuKlU" version="17.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-15T02:33:53.640Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36 Edg/99.0.1150.39" etag="YDHaw0s2zp23m4qikPxy" version="17.1.2" type="github">
   <diagram id="zbQYXli788dO3b4oevm9" name="Page-1">
-    <mxGraphModel dx="507" dy="336" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="245" dy="162" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -91,7 +91,7 @@
         <mxCell id="Y7x8xCthmZxt27cXe_2x-22" value="WL PROVEOT" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="420" y="60" width="100" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Y7x8xCthmZxt27cXe_2x-23" value="" style="endArrow=classic;startArrow=classic;html=1;strokeWidth=2;strokeColor=#00FFFF;" parent="1" edge="1">
+        <mxCell id="Y7x8xCthmZxt27cXe_2x-23" value="" style="endArrow=classic;startArrow=classic;html=1;strokeWidth=1;strokeColor=#00FFFF;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="400" y="149.66" as="sourcePoint" />
             <mxPoint x="440" y="149.66" as="targetPoint" />
@@ -100,7 +100,7 @@
         <mxCell id="Y7x8xCthmZxt27cXe_2x-24" value="&lt;font color=&quot;#00ffff&quot;&gt;~50ms&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="400" y="130" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Y7x8xCthmZxt27cXe_2x-28" value="" style="endArrow=classic;startArrow=classic;html=1;strokeColor=#00FFFF;strokeWidth=2;" parent="1" edge="1">
+        <mxCell id="Y7x8xCthmZxt27cXe_2x-28" value="" style="endArrow=classic;startArrow=classic;html=1;strokeColor=#00FFFF;strokeWidth=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="440" y="90" as="sourcePoint" />
             <mxPoint x="470" y="90" as="targetPoint" />
@@ -117,6 +117,15 @@
         </mxCell>
         <mxCell id="BDKT6mTgMpjXlnH-ZaIA-2" value="Can Signal Tx" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="450" y="190" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BDKT6mTgMpjXlnH-ZaIA-3" value="" style="endArrow=classic;startArrow=classic;html=1;strokeColor=#00FFFF;strokeWidth=0.5;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="BDKT6mTgMpjXlnH-ZaIA-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="180" as="sourcePoint" />
+            <mxPoint x="490.0000000000001" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BDKT6mTgMpjXlnH-ZaIA-4" value="&lt;font color=&quot;#00ffff&quot; style=&quot;font-size: 10px&quot;&gt;~25ms&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="180" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
