@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-10T06:39:22.803Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36 Edg/101.0.1210.39" etag="-i5eN7NYBcbN_l352CYo" version="18.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-10T06:39:51.909Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36 Edg/101.0.1210.39" etag="M1HQIXl72JUEz3jd_rIe" version="18.0.2" type="github">
   <diagram id="vv5RtcbsHHD1G6dE_SER" name="Page-1">
     <mxGraphModel dx="734" dy="467" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -25,8 +25,8 @@
             <mxPoint x="540" y="180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="k0U54ZmYmsR-SDbMJ6Dc-5" value="上坡加速" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="420" y="330" width="60" height="30" as="geometry" />
+        <mxCell id="k0U54ZmYmsR-SDbMJ6Dc-5" value="上坡加速" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBorderColor=none;labelBackgroundColor=none;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="400" y="330" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="k0U54ZmYmsR-SDbMJ6Dc-6" value="a&#39;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="500" y="150" width="60" height="30" as="geometry" />
@@ -62,7 +62,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="k0U54ZmYmsR-SDbMJ6Dc-13" value="A = a&#39; - g*sin(θ) （其中a&#39; &amp;gt; g*sin(&lt;span style=&quot;text-align: center;&quot;&gt;θ&lt;/span&gt;)）&lt;br&gt;A: IMU sensor测量到的加速度&lt;br&gt;a&#39;: 实际车子的加速度&lt;br&gt;gsin(θ): 重力加速度分量" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="325" y="360" width="235" height="70" as="geometry" />
+          <mxGeometry x="322.5" y="370" width="235" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
