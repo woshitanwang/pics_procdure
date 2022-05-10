@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-10T06:40:06.183Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36 Edg/101.0.1210.39" etag="NJ9acoLiO3PyLJFsOWUm" version="18.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-10T06:43:15.890Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36 Edg/101.0.1210.39" etag="Fsiguc9gQzbbAeQ1Pyia" version="18.0.2" type="github">
   <diagram id="vv5RtcbsHHD1G6dE_SER" name="Page-1">
     <mxGraphModel dx="734" dy="467" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -22,14 +22,14 @@
         <mxCell id="k0U54ZmYmsR-SDbMJ6Dc-4" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="440" y="220" as="sourcePoint" />
-            <mxPoint x="540" y="180" as="targetPoint" />
+            <mxPoint x="520" y="190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="k0U54ZmYmsR-SDbMJ6Dc-5" value="上坡加速" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBorderColor=none;labelBackgroundColor=none;fontStyle=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="400" y="330" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="k0U54ZmYmsR-SDbMJ6Dc-6" value="a&#39;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="500" y="150" width="60" height="30" as="geometry" />
+          <mxGeometry x="483.75" y="160" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="k0U54ZmYmsR-SDbMJ6Dc-7" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -61,8 +61,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="k0U54ZmYmsR-SDbMJ6Dc-13" value="A = a&#39; - g*sin(θ) （其中a&#39; &amp;gt; g*sin(&lt;span style=&quot;text-align: center;&quot;&gt;θ&lt;/span&gt;)）&lt;br&gt;A: IMU sensor测量到的加速度&lt;br&gt;a&#39;: 实际车子的加速度&lt;br&gt;gsin(θ): 重力加速度分量" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="336.25" y="370" width="207.5" height="70" as="geometry" />
+        <mxCell id="k0U54ZmYmsR-SDbMJ6Dc-13" value="A = a&#39; - g*sin(θ) （其中a&#39; &amp;gt; g*sin(&lt;span style=&quot;text-align: center;&quot;&gt;θ&lt;/span&gt;)）&lt;br&gt;A: IMU sensor测量到的加速度&lt;br&gt;a&#39;: 实际车子的加速度&lt;br&gt;gsin(θ): 重力加速度分量&lt;br&gt;&lt;br&gt;反之，a&#39;方向与当前方向相反，或者为0" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="323.13" y="370" width="233.75" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
