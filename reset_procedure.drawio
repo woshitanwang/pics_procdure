@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-24T08:34:46.167Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.48" etag="AhqNyz4QUrcvP0wryO97" version="20.4.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-24T08:35:19.765Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.48" etag="Fyb0tLoidnL29W0IGPFI" version="20.4.1" type="github">
   <diagram id="q7R7ZpNG9PPQRxhQZXBu" name="第 1 页">
     <mxGraphModel dx="818" dy="456" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -40,7 +40,7 @@
         <mxCell id="eVWi-_8oN8htNleErUdb-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eVWi-_8oN8htNleErUdb-8" target="ki6q88_51caTdd5Ug6VP-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eVWi-_8oN8htNleErUdb-8" value="&lt;div&gt;SYSMODMGR_POSTRUN_STATE -&amp;gt;&amp;nbsp;&lt;/div&gt;&lt;div&gt;SYSMODMGR_HOUSEKEEPING_STATE -&amp;gt;&lt;/div&gt;&lt;div&gt;SYSMODMGR_HK_COMPLETE_STATE -&amp;gt;&lt;/div&gt;&lt;div&gt;SYSMODMGR_SHUTDOWN_STATE&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="eVWi-_8oN8htNleErUdb-8" value="&lt;div&gt;SysModMgr_MainFunction (2KHZ)&lt;/div&gt;&lt;div&gt;SYSMODMGR_POSTRUN_STATE -&amp;gt;&amp;nbsp;&lt;/div&gt;&lt;div&gt;SYSMODMGR_HOUSEKEEPING_STATE -&amp;gt;&lt;/div&gt;&lt;div&gt;SYSMODMGR_HK_COMPLETE_STATE -&amp;gt;&lt;/div&gt;&lt;div&gt;SYSMODMGR_SHUTDOWN_STATE&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="380" y="370" width="280" height="110" as="geometry" />
         </mxCell>
         <mxCell id="eVWi-_8oN8htNleErUdb-10" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
