@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-24T08:35:54.587Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.48" etag="CzWQR1uuqQPxPBqah4YW" version="20.4.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-24T08:44:15.190Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.48" etag="vUemd5ara5DMDGbH18XZ" version="20.4.1" type="github">
   <diagram id="q7R7ZpNG9PPQRxhQZXBu" name="第 1 页">
     <mxGraphModel dx="981" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -43,10 +43,10 @@
         <mxCell id="eVWi-_8oN8htNleErUdb-8" value="&lt;div&gt;SysModMgr_MainFunction (2KHZ)&lt;/div&gt;&lt;div&gt;SYSMODMGR_POSTRUN_STATE -&amp;gt;&amp;nbsp;&lt;/div&gt;&lt;div&gt;SYSMODMGR_HOUSEKEEPING_STATE -&amp;gt;&lt;/div&gt;&lt;div&gt;SYSMODMGR_HK_COMPLETE_STATE -&amp;gt;&lt;/div&gt;&lt;div&gt;SYSMODMGR_SHUTDOWN_STATE&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="380" y="370" width="280" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="eVWi-_8oN8htNleErUdb-10" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="eVWi-_8oN8htNleErUdb-10" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=3;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="40" y="620" as="sourcePoint" />
-            <mxPoint x="720" y="620" as="targetPoint" />
+            <mxPoint x="120" y="620" as="sourcePoint" />
+            <mxPoint x="920" y="620" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="eVWi-_8oN8htNleErUdb-11" value="TK_5MSEC_QM" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -57,6 +57,15 @@
         </mxCell>
         <mxCell id="eVWi-_8oN8htNleErUdb-19" value="Trriger" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="670" y="390" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eVWi-_8oN8htNleErUdb-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;" edge="1" parent="1" source="eVWi-_8oN8htNleErUdb-20" target="eVWi-_8oN8htNleErUdb-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eVWi-_8oN8htNleErUdb-20" value="HousekeepingEntryActn" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="210" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="eVWi-_8oN8htNleErUdb-21" value="HousekeepingStActn -PowerdownCompleteLookup&lt;br&gt;(3s Timeout)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="210" width="170" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
