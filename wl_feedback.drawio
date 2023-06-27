@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-27T09:44:43.443Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58" etag="eEFbP1tLUDj-ls1eIFAU" version="21.3.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-27T09:48:44.373Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58" etag="tD_qPjR9JbgIOOkhIBFi" version="21.3.4" type="github">
   <diagram name="第 1 页" id="kOARaLgEpp79fm4aczMa">
     <mxGraphModel dx="1379" dy="1856" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -235,7 +235,7 @@
         <mxCell id="nJ7Q8TauHSSMrptoCDet-60" value="100" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="130" y="80" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="nJ7Q8TauHSSMrptoCDet-62" value="当前设计存在的问题:&lt;br&gt;(1) 现在是上电延时500ms就会去Check WL的Feedback信号, 我们要保证500ms内能收到有效且正确的Feedback信号, 才不会报这个错, 而且这个延时500ms时间其实和对手件也有关系(要保证对方在500ms内发出信号), 我们的ECU才能在1秒内能收到这个信号;&lt;br&gt;(2) 现在check Feedback信号有效性和值正确次数为1次, 如果(1)中的500ms内没收到Feedback信号, 就会立即报出来这个错.&lt;br&gt;(3) 现在下电的时候也会去Check, 因为要考虑电压低收不到feedback信号的情况.&lt;br&gt;&lt;b&gt;(4) WL状态值如果一直在ON/OFF之间跳变, 但是Feedback信号有传输延时, 也会导致可能报这个错的情况.&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="nJ7Q8TauHSSMrptoCDet-62" value="当前设计存在的问题:&lt;br&gt;(1) 现在是上电延时500ms就会去Check WL的Feedback信号, 我们要保证500ms内能收到有效且正确的Feedback信号, 才不会报这个错, 而且这个延时500ms时间其实和对手件也有关系(要保证对方在500ms内发出信号), 我们的ECU才能在1秒内能收到这个信号;&lt;br&gt;(2) 现在check Feedback信号有效性和值正确次数为1次, 如果(1)中的500ms内没收到Feedback信号, 就会立即报出来这个错.&lt;br&gt;(3) 现在下电的时候也会去Check, 要考虑电压低收不到feedback信号的情况.&lt;br&gt;(4) Check Feedback 信号不match的次数5次需要根据实际情况调整.&lt;br&gt;&lt;b&gt;(5) WL状态值如果一直在ON/OFF之间跳变, 但是Feedback信号有传输延时, 也会导致可能报这个错的情况.&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="80" y="560" width="790" height="140" as="geometry" />
         </mxCell>
         <mxCell id="nJ7Q8TauHSSMrptoCDet-67" value="" style="group" vertex="1" connectable="0" parent="1">
