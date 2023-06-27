@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-27T08:42:41.979Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58" etag="h9iaJzymruCmLVfbPmfv" version="21.3.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-27T08:46:09.784Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58" etag="1NADmQF9QAIop1071R0E" version="21.3.4" type="github">
   <diagram name="第 1 页" id="kOARaLgEpp79fm4aczMa">
     <mxGraphModel dx="788" dy="432" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -70,7 +70,7 @@
         <mxCell id="nJ7Q8TauHSSMrptoCDet-18" value="100 ms Send WL Signal" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="477.5" y="130" width="75" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="nJ7Q8TauHSSMrptoCDet-19" value="50 ms Recv FeedBack WL Signal, Maybe&amp;gt;50ms" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="nJ7Q8TauHSSMrptoCDet-19" value="50 ms Recv FeedBack WL Signal, Maybe&lt;b&gt;&amp;gt;50ms&lt;/b&gt;" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="460" y="255" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nJ7Q8TauHSSMrptoCDet-20" value="5 ms" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -85,8 +85,11 @@
         <mxCell id="nJ7Q8TauHSSMrptoCDet-24" value="5 ms" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="360" y="270" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="nJ7Q8TauHSSMrptoCDet-26" value="WL Lamp Feedback signal delay time: &lt;b&gt;&amp;gt; &lt;/b&gt;230 ms" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="130" y="350" width="310" height="30" as="geometry" />
+        <mxCell id="nJ7Q8TauHSSMrptoCDet-26" value="WL Lamp Feedback signal delay time(Other ECU send out the updated feedback signal in 50ms): max is&lt;b&gt;&amp;nbsp;&lt;/b&gt;230 ms&lt;br&gt;If Other ECU send out the updated feedback signal grater than 50ms: max is 230ms+Other ECU delay time" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="360" width="650" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nJ7Q8TauHSSMrptoCDet-27" value="Other ECU Delay Time" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="590" y="120" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
