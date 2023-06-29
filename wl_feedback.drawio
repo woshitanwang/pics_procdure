@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-29T01:39:47.199Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58" etag="KHoaF2PkVzHUF6pucVML" version="21.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-29T05:23:28.519Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58" etag="Iu3-vTpfsnROdJ5buTRl" version="21.5.2" type="github">
   <diagram name="第 1 页" id="kOARaLgEpp79fm4aczMa">
     <mxGraphModel dx="1379" dy="1856" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -236,7 +236,7 @@
           <mxGeometry x="130" y="80" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nJ7Q8TauHSSMrptoCDet-62" value="当前设计存在的问题:&lt;br&gt;(1) 现在是上电延时500ms就会去Check WL的Feedback信号, 我们要保证500ms内能收到有效且正确的Feedback信号, 才不会报这个错, 而且这个延时500ms时间其实和对手件也有关系(要保证对方在500ms内发出信号), 我们的ECU才能在500m&#39;sms内能收到这个信号;&lt;br&gt;(2) 现在check Feedback信号有效性和值正确次数为1次, 如果(1)中的500ms内没收到Feedback信号, 就会立即报出来这个错.&lt;br&gt;(3) 现在下电的时候也会去Check, 要考虑电压低收不到feedback信号的情况.&lt;br&gt;(4) Check Feedback 信号不match的次数5次需要根据实际情况调整.&lt;br&gt;(5) BusOff, NM管理对Feedback信号的影响, 当BusOff或BusSleep时CANC接收不到feedback应用报文了, 此时会报出这个错.&lt;br&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;(6) WL状态值如果一直在ON/OFF之间快速跳变, 但是Feedback信号有传输延时, 也会导致可能报这个错的情况.&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; 当前是用当前的WL信号与Feedback信号去做比较, 由于存在传输延时的问题, 实际的feedback信号相当与是之前xxms之前的状态.&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; 应该要用WL信号发出去这一帧message的值和下一次收到的feedback信号的值作比较才合理.&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="80" y="560" width="790" height="140" as="geometry" />
+          <mxGeometry x="80" y="540" width="790" height="160" as="geometry" />
         </mxCell>
         <mxCell id="V_bLlLUlQ_XApcf3O7GK-2" value="" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=#d5e8d4;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="100" y="-10" width="20" height="20" as="geometry" />
