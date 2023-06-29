@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-29T06:33:30.072Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58" etag="e1YZ6wa7dCRoTVz0OWLE" version="21.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-29T06:33:52.193Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58" etag="FNeqQp27mwA-wDy08Zp5" version="21.5.2" type="github">
   <diagram name="第 1 页" id="kOARaLgEpp79fm4aczMa">
     <mxGraphModel dx="1379" dy="1856" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -260,7 +260,7 @@
           <mxGeometry x="180" y="-10" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="jjfWgEBAuFG351KeU_w4-1" value="针对第(6)点有如下方案:&lt;br&gt;(1) Feedback信号的判断和DTC qualify逻辑放到CANC来处理, 删除WL相关处理逻辑&lt;br&gt;(2) 由CANC这边进行判断, 将判断结果返回给WL, DTC qualify 逻辑还是放在WL&lt;br&gt;(3) 判断逻辑和DTC qualify逻辑还是放到WL来管理&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;CAN 发送WL信号完成后, 通过Callback通知WL发出去的信号值&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;CAN 收到WL信号后, 通过Callback通知WL收到的信号值&lt;br&gt;(4) 不考虑第6种情况, 保持当前的设计, 一般情况下WL信号输出是不会存在这种情况, 除非人为快速qualify/disqualify DTC" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="80" y="730" width="510" height="130" as="geometry" />
+          <mxGeometry x="80" y="730" width="640" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
