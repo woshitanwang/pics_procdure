@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-29T05:23:28.519Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58" etag="Iu3-vTpfsnROdJ5buTRl" version="21.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-29T06:27:44.735Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.58" etag="YUM_z0mjWnlS4yC29Y3x" version="21.5.2" type="github">
   <diagram name="第 1 页" id="kOARaLgEpp79fm4aczMa">
     <mxGraphModel dx="1379" dy="1856" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -235,8 +235,8 @@
         <mxCell id="nJ7Q8TauHSSMrptoCDet-60" value="100" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="130" y="80" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="nJ7Q8TauHSSMrptoCDet-62" value="当前设计存在的问题:&lt;br&gt;(1) 现在是上电延时500ms就会去Check WL的Feedback信号, 我们要保证500ms内能收到有效且正确的Feedback信号, 才不会报这个错, 而且这个延时500ms时间其实和对手件也有关系(要保证对方在500ms内发出信号), 我们的ECU才能在500m&#39;sms内能收到这个信号;&lt;br&gt;(2) 现在check Feedback信号有效性和值正确次数为1次, 如果(1)中的500ms内没收到Feedback信号, 就会立即报出来这个错.&lt;br&gt;(3) 现在下电的时候也会去Check, 要考虑电压低收不到feedback信号的情况.&lt;br&gt;(4) Check Feedback 信号不match的次数5次需要根据实际情况调整.&lt;br&gt;(5) BusOff, NM管理对Feedback信号的影响, 当BusOff或BusSleep时CANC接收不到feedback应用报文了, 此时会报出这个错.&lt;br&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;(6) WL状态值如果一直在ON/OFF之间快速跳变, 但是Feedback信号有传输延时, 也会导致可能报这个错的情况.&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; 当前是用当前的WL信号与Feedback信号去做比较, 由于存在传输延时的问题, 实际的feedback信号相当与是之前xxms之前的状态.&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; 应该要用WL信号发出去这一帧message的值和下一次收到的feedback信号的值作比较才合理.&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="80" y="540" width="790" height="160" as="geometry" />
+        <mxCell id="nJ7Q8TauHSSMrptoCDet-62" value="当前设计存在的问题:&lt;br&gt;(1) 现在是上电延时500ms就会去Check WL的Feedback信号, 我们要保证500ms内能收到有效且正确的Feedback信号, 才不会报这个错, 而且这个延时500ms时间其实和对手件也有关系(要保证对方在500ms内发出信号), 我们的ECU才能在500ms内能收到这个信号;&lt;br&gt;(2) 现在check Feedback信号有效性和值正确次数为1次, 如果(1)中的500ms内没收到Feedback信号, 就会立即报出来这个错.&lt;br&gt;(3) 现在下电的时候也会去Check, 要考虑电压低收不到feedback信号的情况.&lt;br&gt;(4) Check Feedback 信号不match的次数5次需要根据实际情况调整.&lt;br&gt;(5) BusOff, NM管理对Feedback信号的影响, 当BusOff或BusSleep时CANC接收不到feedback应用报文了, 此时会报出这个错.canmgr_CommDTC_Is_Enable&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;br&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;(6) WL状态值如果一直在ON/OFF之间快速跳变, 但是Feedback信号有传输延时, 也会导致可能报这个错的情况.&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; 当前是用当前的WL信号与Feedback信号去做比较, 由于存在传输延时的问题, 实际的feedback信号相当与是之前xxms之前的状态.&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; 应该要用WL信号发出去这一帧message的值和下一次收到的feedback信号的值作比较才合理.&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="80" y="540" width="880" height="160" as="geometry" />
         </mxCell>
         <mxCell id="V_bLlLUlQ_XApcf3O7GK-2" value="" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=#d5e8d4;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="100" y="-10" width="20" height="20" as="geometry" />
@@ -258,6 +258,9 @@
         </mxCell>
         <mxCell id="V_bLlLUlQ_XApcf3O7GK-5" value="" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=#d5e8d4;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="180" y="-10" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jjfWgEBAuFG351KeU_w4-1" value="针对第(6)点有如下方案:&lt;br&gt;(1) Feedback信号的判断和DTC qualify逻辑放到CANC来处理, 删除WL相关处理逻辑&lt;br&gt;(2) 由CANC这边进行判断, 将判断结果返回给WL, DTC qualify 逻辑还是放在WL&lt;br&gt;(3) 判断逻辑和DTC qualify逻辑还是放到WL来管理&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;CAN 发送WL信号完成后, 通过Callback通知WL发出去的信号值&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;CAN 收到WL信号后, 通过Callback通知WL收到的信号值" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="730" width="510" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
