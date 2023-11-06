@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-06T09:09:55.158Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="wiSN6qed5EIlZKM5qcDE" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-06T09:15:55.261Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="ZHwrVLS1_eiGbONzHF8Q" version="21.6.8" type="github">
   <diagram name="第 1 页" id="8Wrz2Xrt_igTfBQ7lWAg">
-    <mxGraphModel dx="1806" dy="518" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2005" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -225,6 +225,15 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="410" y="840" as="sourcePoint" />
             <mxPoint x="460" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w8Boios2pAZWmWtLIqrr-87" value="用LAMP_CH2 表示PADI_ON, 利用GpoMapping参数在不同的Variant里映射到不同的GPO通道" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="610" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="w8Boios2pAZWmWtLIqrr-91" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1" target="w8Boios2pAZWmWtLIqrr-87">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="395" y="810" as="sourcePoint" />
+            <mxPoint x="440" y="670" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
