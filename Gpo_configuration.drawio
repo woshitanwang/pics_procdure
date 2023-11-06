@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-06T08:21:17.238Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="sOiSH6Rbl2gyxBR9pdnN" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-06T08:22:49.715Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="sY3jiA4IWS7fsJyH6Wtj" version="21.6.8" type="github">
   <diagram name="第 1 页" id="8Wrz2Xrt_igTfBQ7lWAg">
-    <mxGraphModel dx="2276" dy="757" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2830" dy="1073" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -48,6 +48,12 @@
         </mxCell>
         <mxCell id="w8Boios2pAZWmWtLIqrr-17" value="EOL 配置" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-90" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="w8Boios2pAZWmWtLIqrr-18" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="w8Boios2pAZWmWtLIqrr-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="300" as="sourcePoint" />
+            <mxPoint x="170" y="220" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
