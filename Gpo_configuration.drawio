@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-06T08:48:42.835Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="ZJR1NZrvkFPoYbJoj5BJ" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-06T08:51:28.230Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="wSft5-DYp3MUzoSy8cHE" version="21.6.8" type="github">
   <diagram name="第 1 页" id="8Wrz2Xrt_igTfBQ7lWAg">
     <mxGraphModel dx="2481" dy="884" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -47,7 +47,7 @@
           <mxGeometry x="460" y="290" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="w8Boios2pAZWmWtLIqrr-17" value="EOL 配置" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-120" y="185" width="120" height="60" as="geometry" />
+          <mxGeometry x="-110" y="215" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="w8Boios2pAZWmWtLIqrr-20" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="w8Boios2pAZWmWtLIqrr-7" target="w8Boios2pAZWmWtLIqrr-13">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -82,7 +82,7 @@
             <mxPoint x="530" y="190" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="w8Boios2pAZWmWtLIqrr-32" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="w8Boios2pAZWmWtLIqrr-17" target="w8Boios2pAZWmWtLIqrr-7">
+        <mxCell id="w8Boios2pAZWmWtLIqrr-32" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="w8Boios2pAZWmWtLIqrr-17" target="w8Boios2pAZWmWtLIqrr-8">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="540" y="640" as="sourcePoint" />
             <mxPoint x="590" y="590" as="targetPoint" />
@@ -102,6 +102,19 @@
         </mxCell>
         <mxCell id="w8Boios2pAZWmWtLIqrr-35" value="PADI_ON in V2" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="790" y="310" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="w8Boios2pAZWmWtLIqrr-40" value="PADI_ON 配置" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="210" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w8Boios2pAZWmWtLIqrr-41" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="w8Boios2pAZWmWtLIqrr-17" target="w8Boios2pAZWmWtLIqrr-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-70" y="450" as="sourcePoint" />
+            <mxPoint x="-70" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-60" y="200" />
+              <mxPoint y="150" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
