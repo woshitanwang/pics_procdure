@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-07T03:08:29.652Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="Dt9LVItqNgtoGYy7EAAr" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-07T03:13:07.681Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="8xHPDQ7sFGUe_c462BYF" version="21.6.8" type="github">
   <diagram name="第 1 页" id="8Wrz2Xrt_igTfBQ7lWAg">
-    <mxGraphModel dx="1746" dy="1621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1939" dy="1733" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -239,8 +239,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="w8Boios2pAZWmWtLIqrr-92" value="当前的逻辑是LAMP_CHx必须Mapping到GPO_CHx" style="text;whiteSpace=wrap;html=1;fillColor=#F8CECC;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="585" y="657.5" width="100" height="70" as="geometry" />
+        <mxCell id="w8Boios2pAZWmWtLIqrr-92" value="当前的Padi/WL逻辑是LAMP_CHx必须Mapping到GPO_CHx&lt;br&gt;&lt;b&gt;eg:&lt;/b&gt; 也就是LAMP_CH1必须MappingGPO_CH1" style="text;whiteSpace=wrap;html=1;fillColor=#F8CECC;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="582.5" y="651.25" width="175" height="82.5" as="geometry" />
         </mxCell>
         <mxCell id="w8Boios2pAZWmWtLIqrr-93" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;arrowWidth=0.4;arrowSize=0.4;fillColor=#f8cecc;strokeColor=#b85450;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="500" y="675" width="80" height="35" as="geometry" />
