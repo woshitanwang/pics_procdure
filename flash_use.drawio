@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-23T06:27:02.420Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="CT7P3SlqivOASfVQgJ_d" version="22.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-23T06:28:39.865Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 Edg/119.0.0.0" etag="KZ845Qr8dnMLmF9cKeZv" version="22.1.3" type="github">
   <diagram name="第 1 页" id="8-_o1X4CW5Anvpkq5qV0">
-    <mxGraphModel dx="1297" dy="285" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1163" dy="199" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -79,31 +79,41 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="KvajiqOSdeMXq4DKSErc-26" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="520" y="60" width="90" height="20" as="geometry" />
+          <mxGeometry x="360" y="60" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="KvajiqOSdeMXq4DKSErc-27" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="120" width="90" height="120" as="geometry" />
+          <mxGeometry x="360" y="120" width="90" height="120" as="geometry" />
         </mxCell>
         <mxCell id="KvajiqOSdeMXq4DKSErc-28" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="520" y="40" width="90" height="20" as="geometry" />
+          <mxGeometry x="360" y="40" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="KvajiqOSdeMXq4DKSErc-29" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;Fls Block Info&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="545" y="45" width="40" height="10" as="geometry" />
+          <mxGeometry x="385" y="45" width="40" height="10" as="geometry" />
         </mxCell>
         <mxCell id="KvajiqOSdeMXq4DKSErc-30" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;Default Fls Block Data&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="520" y="65" width="90" height="10" as="geometry" />
+          <mxGeometry x="360" y="70" width="90" height="5" as="geometry" />
         </mxCell>
         <mxCell id="KvajiqOSdeMXq4DKSErc-31" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;Default Fls Block Data&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="520" y="160" width="90" height="10" as="geometry" />
+          <mxGeometry x="360" y="160" width="90" height="10" as="geometry" />
         </mxCell>
         <mxCell id="KvajiqOSdeMXq4DKSErc-33" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;Damaged block&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#FF3333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="520" y="80" width="90" height="10" as="geometry" />
+          <mxGeometry x="360" y="80" width="90" height="10" as="geometry" />
         </mxCell>
         <mxCell id="KvajiqOSdeMXq4DKSErc-35" value="&lt;font style=&quot;font-size: 6px;&quot;&gt;Default Fls Block Data&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="520" y="90" width="90" height="20" as="geometry" />
+          <mxGeometry x="360" y="90" width="90" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="KvajiqOSdeMXq4DKSErc-37" value="Newly allocated block" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=6;" vertex="1" parent="1">
-          <mxGeometry x="520" y="110" width="90" height="10" as="geometry" />
+        <mxCell id="KvajiqOSdeMXq4DKSErc-37" value="Newly allocated block" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=6;" vertex="1" parent="1">
+          <mxGeometry x="360" y="110" width="90" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="KvajiqOSdeMXq4DKSErc-38" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" target="KvajiqOSdeMXq4DKSErc-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="80" as="sourcePoint" />
+            <mxPoint x="500" y="30" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="470" y="90" />
+              <mxPoint x="470" y="100" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
