@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-02T07:57:10.973Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="TV4ae6FtGBe2gsnPBp9x" version="22.1.16" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-02T08:04:48.452Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="McX8pTkA3NeovIIZw6JB" version="22.1.16" type="github">
   <diagram name="第 1 页" id="_H7OL5QzuDB1bZUHE0yp">
-    <mxGraphModel dx="911" dy="507" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="759" dy="423" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -127,26 +127,26 @@
         <mxCell id="lsxHzdbqnV-ghvsLPrdJ-32" value="Clear Extenal DTC会有影响吗?" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="680" y="350" width="80" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="lsxHzdbqnV-ghvsLPrdJ-34" value="b. u16FaultCount被重复--" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="lsxHzdbqnV-ghvsLPrdJ-34" value="b. u16FaultCount被重复--" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="810" y="455" width="160" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lsxHzdbqnV-ghvsLPrdJ-35" value="a. Clear DTC过程中Fault重新上报" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="lsxHzdbqnV-ghvsLPrdJ-35" value="a. Clear DTC过程中Fault重新上报" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="810" y="310" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lsxHzdbqnV-ghvsLPrdJ-37" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="980" y="260" width="20" height="120" as="geometry" />
+          <mxGeometry x="980" y="270" width="20" height="100" as="geometry" />
         </mxCell>
         <mxCell id="lsxHzdbqnV-ghvsLPrdJ-39" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="980" y="410" width="20" height="120" as="geometry" />
         </mxCell>
         <mxCell id="lsxHzdbqnV-ghvsLPrdJ-40" value="诊断周期小于20ms(T)" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1010" y="260" width="100" height="30" as="geometry" />
+          <mxGeometry x="1000" y="270" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lsxHzdbqnV-ghvsLPrdJ-41" value="在T时间内先Clear后, 再重新上报Failed" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1010" y="340" width="100" height="40" as="geometry" />
+        <mxCell id="lsxHzdbqnV-ghvsLPrdJ-41" value="在T时间内这个Fault先Clear后, 再重新上报Failed" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="320" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="lsxHzdbqnV-ghvsLPrdJ-42" value="多个FaultEvent Mapping 到同一个DTC" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="400" width="100" height="40" as="geometry" />
+          <mxGeometry x="1000" y="390" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="lsxHzdbqnV-ghvsLPrdJ-43" value="多个FaultEvent清除操作必须在满足a点条件的Fault后面" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1000" y="452.5" width="110" height="55" as="geometry" />
@@ -155,10 +155,10 @@
           <mxGeometry x="1000" y="520" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lsxHzdbqnV-ghvsLPrdJ-45" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="1120" y="410" width="20" height="90" as="geometry" />
+          <mxGeometry x="1120" y="400" width="20" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="lsxHzdbqnV-ghvsLPrdJ-46" value="若满足a和只满足b中的这两条就可能会影响WL的Count, 但不会影响到WL的状态" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1140" y="420" width="140" height="60" as="geometry" />
+        <mxCell id="lsxHzdbqnV-ghvsLPrdJ-46" value="若满足a和只满足b中的这两条就可能会影响当前IG周期WL的Count(14 FFFFFF后reset不会有问题), 但不会影响到WL的状态" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="420" width="180" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
