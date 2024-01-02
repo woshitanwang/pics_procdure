@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-02T07:10:25.487Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="Z500PIWC2fKr6C52lTjn" version="22.1.16" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-02T07:33:07.309Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="bNqQav7B_x3oAdad7wAK" version="22.1.16" type="github">
   <diagram name="第 1 页" id="_H7OL5QzuDB1bZUHE0yp">
     <mxGraphModel dx="911" dy="488" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -70,7 +70,7 @@
             <mxPoint x="529.8" y="320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lsxHzdbqnV-ghvsLPrdJ-15" value="Expect:&lt;br&gt;WL is On&lt;br&gt;u16FaultCount&amp;gt;0" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="lsxHzdbqnV-ghvsLPrdJ-15" value="Expect:&lt;br&gt;WL is On&lt;br&gt;u16FaultCount=19" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="480" y="220" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="lsxHzdbqnV-ghvsLPrdJ-16" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1">
@@ -108,6 +108,15 @@
         </mxCell>
         <mxCell id="lsxHzdbqnV-ghvsLPrdJ-25" value="清DTC时放开Internal DTC条件, 导致WL状态不对" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="70" y="190" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lsxHzdbqnV-ghvsLPrdJ-26" value="T1: 14 FF FF FF清DTC会遍历所有的FaultEvent, 但是报Pass的Fault也会调用WLMgr_ClearFltStatus函数, 导致u16FaultCount--, 直至减到0;&lt;br&gt;T2: 在清除DTC的过程中, IMU_MISSING的DTC在被清除后重新上报, 会导致u16FaultCount=1;&lt;br&gt;T3: 由于清除DTC操作还未完成, 并且T2之后还有内部DTC没有遍历到的情况下, 会导致u16FaultCount=0;" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="440" width="570" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lsxHzdbqnV-ghvsLPrdJ-27" value="存在的问题:&lt;br&gt;(1) 由于DEM配置了Internal Fault 存在的情况下不会进行Clear操作, 所以内部错的不应该导致u16FaultCount--;&lt;br&gt;(2) 即使有Fault在ClearDTC的过程中重新上报了Failed, 也不应该影响到u16FaultCount的值;" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="540" width="570" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lsxHzdbqnV-ghvsLPrdJ-28" value="清DTC时长实测大概16~20ms左右(T1+T2+T3)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="280" width="270" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
