@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-02T07:47:01.206Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="0-jhhnwUZUjiamg-outh" version="22.1.16" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-02T07:48:43.937Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="mAhw07VtujJgUSTKQ-er" version="22.1.16" type="github">
   <diagram name="第 1 页" id="_H7OL5QzuDB1bZUHE0yp">
     <mxGraphModel dx="911" dy="507" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -115,7 +115,7 @@
         <mxCell id="lsxHzdbqnV-ghvsLPrdJ-27" value="存在的问题: (u16FaultCount被重复--, ClearDTC过程中Fault重新上报)&lt;br&gt;(1) 由于DEM配置了Internal Fault 存在的情况下不会进行Clear操作, 所以内部错的不应该导致u16FaultCount--;&lt;br&gt;(2) 即使有Fault在ClearDTC的过程中重新上报了Failed, 也不应该影响到u16FaultCount的值;" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="90" y="540" width="570" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="lsxHzdbqnV-ghvsLPrdJ-28" value="清DTC时长实测大概16~20ms左右(T1+T2+T3)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="lsxHzdbqnV-ghvsLPrdJ-28" value="T: 清DTC时长实测大概16~20ms左右(T1+T2+T3)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="160" y="280" width="270" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lsxHzdbqnV-ghvsLPrdJ-31" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1">
@@ -138,6 +138,12 @@
         </mxCell>
         <mxCell id="lsxHzdbqnV-ghvsLPrdJ-39" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="980" y="410" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="lsxHzdbqnV-ghvsLPrdJ-40" value="诊断周期小于20ms(T1+T2+T3)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="260" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lsxHzdbqnV-ghvsLPrdJ-41" value="诊断周期小于20ms(T1+T2+T3)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="340" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
