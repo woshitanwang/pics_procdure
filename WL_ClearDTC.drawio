@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-02T07:54:26.848Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="-7BlCUGDyQXhiIEBVSfH" version="22.1.16" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-02T07:57:10.973Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="TV4ae6FtGBe2gsnPBp9x" version="22.1.16" type="github">
   <diagram name="第 1 页" id="_H7OL5QzuDB1bZUHE0yp">
     <mxGraphModel dx="911" dy="507" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -153,6 +153,12 @@
         </mxCell>
         <mxCell id="lsxHzdbqnV-ghvsLPrdJ-44" value="诊断周期小于20ms(T)" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1000" y="520" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lsxHzdbqnV-ghvsLPrdJ-45" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="410" width="20" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="lsxHzdbqnV-ghvsLPrdJ-46" value="若满足a和只满足b中的这两条就可能会影响WL的Count, 但不会影响到WL的状态" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="420" width="140" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
