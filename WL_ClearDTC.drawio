@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-05T08:51:17.322Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="dBwoMeaBP4drRkcTtj5Y" version="22.1.16" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-05T08:54:15.520Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="NRKF4KYeYbGWdFbTdBBn" version="22.1.16" type="github">
   <diagram name="第 1 页" id="_H7OL5QzuDB1bZUHE0yp">
-    <mxGraphModel dx="3335" dy="1615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="917" dy="444" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -203,8 +203,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="xlC3KDkpeayBHta-J73Z-12" value="特殊Case" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="1190" y="271" width="60" height="30" as="geometry" />
+        <mxCell id="xlC3KDkpeayBHta-J73Z-12" value="特殊Case, 只有Internal才会出现" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="249.5" width="70" height="41" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
