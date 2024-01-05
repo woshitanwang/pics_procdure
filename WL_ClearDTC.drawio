@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-05T08:04:59.079Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="2QKTjfTfpDQ_jcO0dPW9" version="22.1.16" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-05T08:05:28.717Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="iiKvhljUV4BuhlR4sng2" version="22.1.16" type="github">
   <diagram name="第 1 页" id="_H7OL5QzuDB1bZUHE0yp">
-    <mxGraphModel dx="1595" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="917" dy="427" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -140,19 +140,19 @@
           <mxGeometry x="870" y="440" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lsxHzdbqnV-ghvsLPrdJ-35" value="a. Clear DTC过程中Fault重新上报(概率性)" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="870" y="260" width="160" height="30" as="geometry" />
+          <mxGeometry x="870" y="265" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lsxHzdbqnV-ghvsLPrdJ-37" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="1040" y="205" width="20" height="135" as="geometry" />
+          <mxGeometry x="1040" y="220" width="20" height="120" as="geometry" />
         </mxCell>
         <mxCell id="lsxHzdbqnV-ghvsLPrdJ-39" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="1040" y="395" width="20" height="120" as="geometry" />
         </mxCell>
         <mxCell id="lsxHzdbqnV-ghvsLPrdJ-40" value="诊断周期小于20ms(T)" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1060" y="190" width="100" height="30" as="geometry" />
+          <mxGeometry x="1060" y="210" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lsxHzdbqnV-ghvsLPrdJ-41" value="在T时间内这个Fault先Clear后, 再重新上报Failed" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1060" y="240" width="100" height="50" as="geometry" />
+          <mxGeometry x="1060" y="255" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="lsxHzdbqnV-ghvsLPrdJ-42" value="多个FaultEvent Mapping 到同一个DTC" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1060" y="375" width="100" height="50" as="geometry" />
@@ -189,7 +189,7 @@
           <mxGeometry x="850" y="600" width="657.93" height="190" as="geometry" />
         </mxCell>
         <mxCell id="xlC3KDkpeayBHta-J73Z-7" value="在这个Fault先Clear后到多个Fault事件Clear操作之前的时间段内, 重新上报了Failed" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1060" y="320" width="160" height="50" as="geometry" />
+          <mxGeometry x="1060" y="310" width="160" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
