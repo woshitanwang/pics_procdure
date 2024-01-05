@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-05T08:14:33.948Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="i3zhA9_hbEdqgm8KPRER" version="22.1.16" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-05T08:14:58.500Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="OJUCzff-Zn9WyHiiBpQz" version="22.1.16" type="github">
   <diagram name="第 1 页" id="_H7OL5QzuDB1bZUHE0yp">
     <mxGraphModel dx="966" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -113,7 +113,7 @@
           <mxGeometry x="360" y="340" width="30" height="10" as="geometry" />
         </mxCell>
         <mxCell id="lsxHzdbqnV-ghvsLPrdJ-25" value="清DTC时放开Internal DTC条件, 导致WL状态不对" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="70" y="190" width="170" height="30" as="geometry" />
+          <mxGeometry x="70" y="190" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lsxHzdbqnV-ghvsLPrdJ-26" value="T1: 14 FF FF FF清DTC会遍历所有的FaultEvent, 但是报Pass的Fault也会调用WLMgr_ClearFltStatus函数, 导致u16FaultCount--, 直至减到0;&lt;br&gt;T2: 在清除DTC的过程中, IMU_MISSING的DTC在被清除后重新上报, 会导致u16FaultCount=1;&lt;br&gt;T3: 由于清除DTC操作还未完成, 并且T2之后还有内部DTC没有遍历到的情况下, 会导致u16FaultCount=0;" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="90" y="440" width="570" height="80" as="geometry" />
