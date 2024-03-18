@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-18T07:16:56.471Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="s1BE-XqpaX2NQ7IpQuL0" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-18T07:17:28.132Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="wmTq3nk2vdwIDAtbEsWu" version="24.0.7" type="github">
   <diagram name="第 1 页" id="674MU1z2wqgcmouVuyam">
     <mxGraphModel dx="1167" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -13,8 +13,8 @@
         <mxCell id="2iUAOUVQrEcRfcxT_NKO-2" value="解析接收到的配置字" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#BC6C25;strokeColor=#DDA15E;fontColor=#FEFAE0;" vertex="1" parent="1">
           <mxGeometry x="160" y="272.5" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2iUAOUVQrEcRfcxT_NKO-3" value="接收到配置报文" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#FEFAE0;" vertex="1" parent="1">
-          <mxGeometry x="80" y="260" width="70" height="42.5" as="geometry" />
+        <mxCell id="2iUAOUVQrEcRfcxT_NKO-3" value="接收到配置报文" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="80" y="250" width="70" height="42.5" as="geometry" />
         </mxCell>
         <mxCell id="2iUAOUVQrEcRfcxT_NKO-4" value="Loop 配置" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#BC6C25;strokeColor=#DDA15E;fontColor=#FEFAE0;" vertex="1" parent="1">
           <mxGeometry x="425" y="147.5" width="120" height="40" as="geometry" />
