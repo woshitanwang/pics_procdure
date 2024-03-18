@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-18T07:29:58.031Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="dXSDYnGuyBLC5GfWI4PW" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-18T07:30:42.613Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="WsJdMkLh6hgKvyNUUf4X" version="24.0.7" type="github">
   <diagram name="第 1 页" id="StKTlUCO6NkddTVyeMqx">
-    <mxGraphModel dx="805" dy="423" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1167" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,7 +10,7 @@
         <mxCell id="yNMSCvjh66X3Ysb9l6PN-2" value="测试报告" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="480" y="330" width="120" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="yNMSCvjh66X3Ysb9l6PN-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.011;entryY=0.565;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.997;exitY=0.33;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="yNMSCvjh66X3Ysb9l6PN-5" target="yNMSCvjh66X3Ysb9l6PN-1">
+        <mxCell id="yNMSCvjh66X3Ysb9l6PN-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.011;entryY=0.565;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.998;exitY=0.293;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="yNMSCvjh66X3Ysb9l6PN-5" target="yNMSCvjh66X3Ysb9l6PN-1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="410" y="240" as="sourcePoint" />
           </mxGeometry>
@@ -18,7 +18,7 @@
         <mxCell id="yNMSCvjh66X3Ysb9l6PN-5" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="200" width="290" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="yNMSCvjh66X3Ysb9l6PN-3" value="配置字的Mapping信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="yNMSCvjh66X3Ysb9l6PN-3" value="提供配置字的Mapping信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="130" y="210" width="110" height="70" as="geometry" />
         </mxCell>
         <mxCell id="yNMSCvjh66X3Ysb9l6PN-4" value="生成配置字" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
