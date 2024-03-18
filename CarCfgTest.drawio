@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-18T06:57:17.410Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="ytYr3bfdq6nsS8ZafVJG" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-18T06:57:35.469Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="MX2HwAazRW92u_UyPw06" version="24.0.7" type="github">
   <diagram name="第 1 页" id="674MU1z2wqgcmouVuyam">
     <mxGraphModel dx="670" dy="292" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -11,7 +11,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="2iUAOUVQrEcRfcxT_NKO-2" value="解析接收到的配置字" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="280" width="90" height="80" as="geometry" />
+          <mxGeometry x="200" y="290" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2iUAOUVQrEcRfcxT_NKO-3" value="接收到配置报文" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="100" y="290" width="90" height="30" as="geometry" />
